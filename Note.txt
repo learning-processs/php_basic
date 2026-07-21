@@ -1,0 +1,5 @@
+PHP Intelephense
+
+.(Dot operator) => for concat
+
+DataType => int , float , string, boolean, array, object , null
