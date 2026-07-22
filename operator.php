@@ -51,6 +51,53 @@
             ++$b;
 
            $b++;
+           echo "<br>";
+
+           // Logical Operator : && ->AND ; || -> OR ; NOT -> !
+
+           $a = 1;
+           $b = 20;
+           echo $a;
+           echo $b;
+
+           if($a AND $b){
+                echo "Hello";
+           }else{
+                echo "Hii";
+           }
+
+           echo "<br>";
+           if(++$a > 50 || ++$b > 5){
+                echo "Hello Friends <br>";
+           }else{
+                echo "Hiii <br>";
+           }
+
+           echo $a;
+           echo "<br>";
+           echo $b;
+           echo "<br>";
+
+
+           //String Operator -> . , .=(concat + assignment)
+
+           $z = 100;
+           $x = "Hello";
+           $x .= $z;
+           echo "Value of x : " . $x;
+           echo "<br>";
+           echo "Value of Z : ". $z;
+           echo "<br>";
+
+
+            // Conditional Assignment Operator
+            $n = 50;
+            $m = 10;
+
+            $str = $n > $m ? "First No is Greater" : "Second No is Greater";
+            echo $str;
+            echo "<br>";
+
          ?>
     </body>
 </html>
